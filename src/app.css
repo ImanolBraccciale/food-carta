@@ -1,0 +1,80 @@
+body {
+  background-color: #d4d2cefa;
+  /* Color de fondo deseado */
+  margin: 0;
+  /* Elimina márgenes por defecto */
+  padding: 0;
+  /* Elimina padding por defecto */
+}
+
+.primario {
+  background-color: #ffc70edc;
+  /* Color principal */
+}
+
+.texto {
+  color: #212121;
+  /* Color del texto */
+}
+
+/* Opcional: Estilos para mejorar la visibilidad de los textos sobre el fondo */
+.card-text {
+  color: #212121;
+  /* Color del texto en tarjetas */
+}
+
+.btn-primary {
+  background-color: #FF5722;
+  /* Color de fondo para botones primarios */
+  border-color: #FF5722;
+  /* Color del borde para botones primarios */
+}
+
+.btn-primary:hover {
+  background-color: #e64a19;
+  /* Color de fondo al pasar el ratón por encima del botón primario */
+  border-color: #e64a19;
+  /* Color del borde al pasar el ratón por encima del botón primario */
+}
+
+.accordion-button {
+  background-color: #f1eeeed8 !important;
+  color: rgb(36, 36, 36);
+}
+
+.iconBorder {
+  border-color: #f3f2e6 !important;
+}
+
+.carousel-img {
+  border-radius: 0.5em;
+  width: 800px;
+  height: 400px;
+  object-fit: cover;
+}
+
+@media (max-width: 576px) {
+  .carousel-img {
+    width: 100%;
+    height: 200px;
+    /* Ajusta la altura automáticamente para mantener la proporción */
+  }
+}
+
+h1 {
+  font-size: 3rem;
+  /* Aumenta el tamaño de la fuente */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  color: white;
+  /* Color del texto */
+  text-align: center;
+  font-weight: bold;
+  /* Aumenta el grosor de la letra */
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  /* Agrega un borde alrededor del texto */
+}

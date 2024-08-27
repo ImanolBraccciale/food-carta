@@ -1,0 +1,33 @@
+/* src/components/SocialMediaSection.css */
+.social-media-section {
+     padding: 10px 0;
+  }
+  
+  .social-icon {
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .facebook-icon {
+    color: #4267B2;
+  }
+  
+  .instagram-icon {
+    color: #C13584;
+  }
+  
+  .twitter-icon {
+    color: #1DA1F2;
+  }
+  
+  .whatsapp-icon {
+    color: #25D366;
+  }
+  
+  .phone-icon {
+    color: #34b7f1;
+  }
+  
+  .social-icon:hover {
+    color: #0056b3; /* Color al hacer hover */
+  }
+  
